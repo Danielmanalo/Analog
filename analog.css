@@ -1,0 +1,109 @@
+* {
+	margin: 0px;
+	padding: 0px;
+/*	border: 1px black solid;*/
+}
+
+body{
+	background-image: url("images/piano.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+#analog{
+	font-family: 'ADLaM Display', sans-serif;
+	font-size: 50px;
+}
+
+li {
+	display: inline;
+	margin-right: 30px;
+}
+
+.header {
+	padding-left: 10px;
+	padding-top: 10px;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+/*  background-color: #333; */
+  color: #fff; 
+}
+
+.logo img {
+  max-width: 100px; 
+}
+
+.navbar ul {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+  display: flex; 
+}
+
+.navbar li {
+  margin-right: 20px; 
+}
+
+.navbar a {
+  text-decoration: none;
+  color: whitesmoke; 
+  font-weight: bold;
+}
+
+a {
+font-family: 'ADLaM Display', sans-serif;
+  text-decoration: none;
+  color: whitesmoke; 
+  border: 1px solid transparent;
+  padding: 10px;
+  transition: box-shadow 0.3s;
+}
+
+
+a:hover {
+  color: white;
+  box-shadow: 0 0 10px 2px whitesmoke;
+  border-color: black; 
+  border-radius: 2px;
+}
+
+a:hover, a.on{
+  color: white;
+  box-shadow: 0 0 10px 2px whitesmoke;
+  border-color: black; 
+  border-radius: 2px;
+}
+
+p{
+	color: whitesmoke;
+	font-family: 'ADLaM Display', sans-serif;
+	font-size: 30px;
+	text-align: center;
+/*	border: black 2px solid;*/
+}
+
+#desccon{
+	padding-top: 14%;
+	padding-left: 17px;
+}
+
+#butcon{
+	padding-top: 30px;
+	padding-left: 10%;
+}
+
+#butcon a{
+	margin-right: 40px;
+}
+
+#buy{
+	border: 1px solid #6a994e;
+	background-color: #6a994e;
+}
+
+#repair{
+	border: 1px solid #355070;
+	background-color: #355070;
+}
